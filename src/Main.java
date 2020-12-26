@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //threads are useful to run multiple pieces of code at the same time
-        
+
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
